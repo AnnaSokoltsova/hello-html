@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Sample</title>
+    <title>Perfumes</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
 </head>
 <body>
     <h1>Perfumes</h1>
@@ -16,8 +17,8 @@
                     <img style="width: 300px;" src="img/wscent1.jpeg" alt="feminine-scent">
                 </a>
                 <h4>Price:</h4>
-                <p>£24.99</p>
-                <p><del>£35.99</del></p>
+                <p><strong>£24.99</strong></p>
+                <p><del><small>£35.99</small></del></p>
                 <h4>About the product</h4>
                 <p>Tantalising and delighting all the senses. An utterly unique fragrance experience.</p>
                 <p>Learn more about <a href="#shipping">shipping.</a></p>
@@ -55,6 +56,9 @@
                             <input id="present-wrapping" type="checkbox" name="package" value="present-wrapping">
                             Present wrapping
                         </label>
+                        <br>
+                        <label for="wrapping-color">Select color of the wrapping paper:</label>
+                        <input type="color" id="wrapping-color" name="color">
                         </fieldset>
                         <br>
                         <button type="submit">Purchase</button>
@@ -67,8 +71,8 @@
                     <img style="width: 400px;" src="img/menscent1.jpg" alt="masculine-scent">
                 </a>
                 <h4>Price:</h4>
-                <p>£17.99</p>
-                <p><del>£25.99</del></p>
+                <p><strong>£17.99</strong></p>
+                <p><del><small>£25.99</small></del></p>
                 <h4>About the product</h4>
                 <p>With notes of citrus, bergamot oil, sage, cardamom, clove and sandalwood on a base of leather and oak moss to create this unique scent.</p>
                 <p>Learn more about <a href="#shipping">shipping.</a></p>
@@ -105,7 +109,10 @@
                         <label for="present-wrapping">
                             <input id="present-wrapping" type="checkbox" name="package" value="present-wrapping">
                             Present wrapping
-                        </label>   
+                        </label> 
+                        <br>
+                        <label for="wrapping-color">Select color of the wrapping paper:</label>
+                        <input type="color" id="wrapping-color" name="color"> 
                     </fieldset>
                     <br>
                     <button type="submit">Purchase</button>
