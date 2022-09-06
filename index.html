@@ -8,27 +8,124 @@
 </head>
 <body>
     <h1>Perfumes</h1>
-    <h2>Women's perfume</h2>
-    <div>
-        <h3>Guerlain</h3> 
-        <a href="https://www.google.com/">
-            <img style="width: 300px;" src="img/wscent1.jpeg" alt="feminine-scent">
-        </a>
-        <h4>About the product</h4>
-        <p>Tantalising and delighting all the senses. An utterly unique fragrance experience.</p>
-        <h4>Fragrance Notes:</h4>
-        <ul>
-            <li>Top notes: Ginger, Bitter Orange</li>
-            <li>Middle notes: Rose, Jasmine Sambac, Orange Blossom</li>
-            <li>Base notes: Amber, Honey, Sandalwood, Caramel, Vanilla, Cashmere Wood</li>
-        </ul>
-        <form action="#">
-            <label for="40ml">
-                <input type="radio">
-                40ml
-            </label>
-        </form>
-</div>
+    <main>
+        <h2>Women's perfume</h2>
+            <div>
+                <h3>Guerlain</h3> 
+                <a href="https://www.google.com/">
+                    <img style="width: 300px;" src="img/wscent1.jpeg" alt="feminine-scent">
+                </a>
+                <h4>Price:</h4>
+                <p>£24.99</p>
+                <p><del>£35.99</del></p>
+                <h4>About the product</h4>
+                <p>Tantalising and delighting all the senses. An utterly unique fragrance experience.</p>
+                <p>Learn more about <a href="#shipping">shipping.</a></p>
+                <h4>Fragrance Notes:</h4>
+                <ul>
+                    <li>Top notes: Ginger, Bitter Orange</li>
+                    <li>Middle notes: Rose, Jasmine Sambac, Orange Blossom</li>
+                    <li>Base notes: Amber, Honey, Sandalwood, Caramel, Vanilla, Cashmere Wood</li>
+                </ul>
+                
+                <form action="#">
+                    <fieldset>
+                        <legend>Size:</legend>
+                        <label for="40ml">
+                            <input id="40ml" type="radio" name="size" value="40ml">
+                            40ml
+                        </label>
+                        <label for="60ml">
+                            <input id="60ml" type="radio" name="size" value="40ml">
+                            60ml
+                        </label>
+                        <label for="100ml">
+                            <input id="100ml" type="radio" name="size" value="40ml">
+                            100ml
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Buy together with:</legend>       
+                        <label for="present-bag">
+                            <input id="present-bag" type="checkbox" name="package" value="present-bag">
+                            Present bag
+                        </label>
+                        <br>
+                        <label for="present-wrapping">
+                            <input id="present-wrapping" type="checkbox" name="package" value="present-wrapping">
+                            Present wrapping
+                        </label>
+                        </fieldset>
+                        <br>
+                        <button type="submit">Purchase</button>
+                </form>
+            </div>
+        <h2>Men's perfume</h2>
+            <div>
+                <h3>Aramis</h3> 
+                <a href="https://www.google.com/">
+                    <img style="width: 400px;" src="img/menscent1.jpg" alt="masculine-scent">
+                </a>
+                <h4>Price:</h4>
+                <p>£17.99</p>
+                <p><del>£25.99</del></p>
+                <h4>About the product</h4>
+                <p>With notes of citrus, bergamot oil, sage, cardamom, clove and sandalwood on a base of leather and oak moss to create this unique scent.</p>
+                <p>Learn more about <a href="#shipping">shipping.</a></p>
+                <h4>Fragrance Notes:</h4>
+                <ul>
+                    <li>Top Notes:  Aldehydes, Myrrh, Artemisia, Clover, Thyme, Bergamot and Gardenia</li>
+                    <li>Middle Notes:  Patchouli, Sage, Jasmine, Cardamom and Orris Root</li>
+                    <li>Base Notes:  Leather, Oakmoss, Musk, Vetiver, Sandalwood, Amber and Coconut.</li>
+                </ul>
+                
+                <form action="#">
+                    <fieldset>
+                        <legend>Size:</legend>
+                        <label for="50ml">
+                            <input id="50ml" type="radio" name="size" value="40ml">
+                            50ml
+                        </label>
+                        <label for="100ml">
+                            <input id="100ml" type="radio" name="size" value="40ml">
+                            100ml
+                        </label>
+                        <label for="150ml">
+                            <input id="150ml" type="radio" name="size" value="40ml">
+                            150ml
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Buy together with:</legend>       
+                        <label for="present-bag">
+                            <input id="present-bag" type="checkbox" name="package" value="present-bag">
+                            Present bag
+                        </label>
+                        <br>
+                        <label for="present-wrapping">
+                            <input id="present-wrapping" type="checkbox" name="package" value="present-wrapping">
+                            Present wrapping
+                        </label>   
+                    </fieldset>
+                    <br>
+                    <button type="submit">Purchase</button>
+                </form>
+            </div>
+            <br>
+            <hr>
+            <div id="shipping">
+                <h2>SHIPPING SERVICES:</h2>
+                <ol>
+                    <li>All orders over £50 will qualify for Free Shipping</li>
+                    <li>Royal Mail Tracked 24 with Signature - £3.99</li>
+                    <li>Royal Mail Tracked 48 with Signature - £2.99</li>
+                    <li>DPD Premium Tracked Next Day UK Mainland - £6.99</li>
+                </ol>
+            </div>
+            <h2>Subscribe for our exclusive offers</h2>
+            <input type="text" name="subscribe" placeholder="Enter your email adress" required>
+            <button type="submit">Subscribe</button>
+    </main>
 
 </body>
 </html>
