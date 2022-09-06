@@ -8,9 +8,15 @@
     <link rel="icon" type="image/x-icon" href="img/icon.png">
 </head>
 <body>
+    <nav>
+        <a href="#womens-perfume">Women's perfume</a> |
+        <a href="#mens-perfume">Men's perfume</a> |
+        <a href="#shipping">Shipping</a> |
+        <a href="#footer">Contacts</a>
+      </nav>
     <h1>Perfumes</h1>
     <main>
-        <h2>Women's perfume</h2>
+        <h2 id="womens-perfume">Women's perfume</h2>
             <div>
                 <h3>Guerlain</h3> 
                 <a href="https://www.google.com/">
@@ -78,7 +84,7 @@
                         <button type="submit">Purchase</button>
                 </form>
             </div>
-        <h2>Men's perfume</h2>
+        <h2 id="mens-perfume">Men's perfume</h2>
             <div>
                 <h3>Aramis</h3> 
                 <a href="https://www.google.com/">
@@ -157,9 +163,19 @@
                 </ol>
             </div>
             <h2>Subscribe for our exclusive offers</h2>
-            <input type="text" name="subscribe" placeholder="Enter your email adress" required>
-            <button type="submit">Subscribe</button>
+            <form action="#">
+                <input type="text" name="subscribe" placeholder="Enter your email adress" required>
+                <button type="submit">Subscribe</button>
+            </form>
     </main>
-
+    <br>
+    <hr>
+    <br>
+    <footer id="footer">
+        <p>Call us: <a href="tel:+38066565656">+3803599883833</a></p>
+        <a href = "mailto: perfumes@example.com">Send Email</a>
+        <br>
+        <a href="#">Privacy policy</a>
+    </footer>
 </body>
 </html>
